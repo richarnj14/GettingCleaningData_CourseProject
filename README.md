@@ -12,4 +12,4 @@ All code for this project is included in the R script, run_analysis.R, which doe
 * Create a tidy dataset with the average of each variable for each activity and each subject
 * Write the tidy dataset to tidy_set.txt
 
-The end result is shown in the file tidy_set.txt and explained by code_book.md.
+Variables used in run_analysis.R are explained by code_book.md.  The end result is shown in the file tidy_set.txt.
