@@ -20,7 +20,7 @@ subject_test <- read.table("./UCI HAR Dataset/test/subject_test.txt")
 
 ## Read in the feature vector and activity labels
 features <- read.table('./UCI HAR Dataset/features.txt')
-activity_labels = read.table('./UCI HAR Dataset/activity_labels.txt')
+activity_labels <- read.table('./UCI HAR Dataset/activity_labels.txt')
 
 ## Update column names to be more descriptive
 colnames(features) <- c("feature_id","feature_name")
